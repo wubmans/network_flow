@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Sketch",
+        "type": "process",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "command": "java",
+        "args": [
+          "-jar",
+          "C:\\Users\\wubma\\OneDrive\\Documents\\Programming-bijles\\processing-py\\processing-py.jar",
+          "${fileWorkspaceFolder}/*.pyde"
+        ],
+      }
+    ]
+  }
